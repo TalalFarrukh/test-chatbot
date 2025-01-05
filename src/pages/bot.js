@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import ReactMarkdown from 'react-markdown';
 import { GoogleGenerativeAI } from '@google/generative-ai';
-import parts from './trainingData';
+import parts from '../trainingData';
 
 const ChatbotPage = () => {
   const [input, setInput] = useState('');
