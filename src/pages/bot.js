@@ -10,7 +10,7 @@ const ChatbotPage = () => {
 
   const genAI = new GoogleGenerativeAI("AIzaSyA1_I9VGMPkjWR4G7M2-16woVwN-hJw5U0");
   const model = genAI.getGenerativeModel({
-    model: "gemini-1.5-pro",
+    model: "gemini-1.5-flash",
   });
 
   const generationConfig = {
